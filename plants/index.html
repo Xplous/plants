@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inika&display=swap" rel="stylesheet">
+<<<<<<< Updated upstream
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="./index.js"></script>
+    <script src="./gard.js"></script>
+=======
+>>>>>>> Stashed changes
+    <title>Plants</title>
+</head>
+<body>
+    <header class="header flex-container">
+        <div class="flex-container" style="flex-direction: row; align-items: center;">
+            <img class="logo_plant" src="./images/logo_vector.svg" alt="logo">
+            <h4 class="header-plants">Plants</h4>
+        </div>
+        <nav id="nav1" class="navs">
+            <ul class="flex-container nav-ul">
+                <li id="header-font"><a id="nav-a" href="#">Home</a></li>
+                <li id="header-font"><a id="nav-a" href="#about">About us</a></li>
+                <li id="header-font"><a id="nav-a" href="#service">Service</a></li>
+                <li id="header-font"><a id="nav-a" href="#price">Price</a></li>
+                <li id="header-font"><a id="nav-a" href="#contacts">Contacts</a></li>
+            </ul>
+        </nav>
+        <span class="burger" id="burger1"><img src="./images/burger.svg"></span>
+    </header>
+    <main>
+        <div class="flex-container welcome ">
+                <img class="leafs" src="./images/leafs.svg" width="448.8" height="407.36" alt="leafs">
+            <section class="welcome-section">
+                <div class="welcome-text">
+                    <h2>We grow <span>plants</span> and give you oxygen</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                </div>
+                <button class="button-1" style="cursor: pointer; ">LEARN MORE</button>
+            </section>
+        </div>
+        <div class="about">
+            <a name="about" style="margin-bottom: 750px"></a>
+            <section class="about-section">
+                <div class="about-text">
+                    <div class="about-tag"><h2>We are <span>professional experienced</span> gardeners</h2></div>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+                </div>
+                <button class="button-1" style="cursor: pointer;">LEARN MORE</button>
+            </section>
+                <img class="houseplant" src="./images/houseplant_1.svg" width="464" height="479" alt="houseplant">
+        </div>
+        <div class="service">
+            <a name="service"></a>
+            <div class="service-nav flex-container">
+                <h2 class="service-text">Service and our projects</h2>
+                <div class="service-buttons">
+                    <button class="button-2" id="btn-1" onclick="blurImg('btn-1')" style="cursor: pointer;">Gardens</button>
+                    <button class="button-2" id="btn-2" onclick="blurImg('btn-2')" style="cursor: pointer;">Lawn</button>
+                    <button class="button-2" id="btn-3" onclick="blurImg('btn-3')" style="cursor: pointer;">Planting</button>
+                </div>
+            </div>
+            <div class="service-items flex-container">
+                <div class="card" id="card-1">
+                    <div id="card-header">
+                        <img class="card-img" src="./images/first.png" id="gard1" alt="item-1">
+                    </div>
+                    <div id="card-body">
+                        <h2 id="restangle-h2">Garden care</h2>
+                        <p id="restangle-p">Lorem Ipsum has been the industry</p>
+                    </div>
+                </div>
+                <div class="card" id="card-2">
+                    <div id="card-header">
+                        <img class="card-img" src="./images/2.png" id="gard2" alt="item-2">
+                    </div>
+                    <div id="card-body">
+                        <h2 id="restangle-h2">Planting</h2>
+                        <p id="restangle-p">Lorem Ipsum has been the industry</p>
+                    </div>
+                </div>
+                <div class="card" id="card-3">
+                    <div id="card-header">
+                        <img class="card-img" src="./images/3.png" id="gard3"alt="item-3">
+                    </div>
+                    <div id="card-body">
+                        <h2 id="restangle-h2">Lawn care</h2>
+                        <p id="restangle-p">Lorem Ipsum has been the industry</p>
+                    </div>
+                </div>
+                <div class="card" id="card-4">
+                    <div id="card-header">
+                        <img class="card-img" src="./images/4.png" id="gard4" alt="item-4">
+                    </div>
+                    <div id="card-body">
+                        <h2 id="restangle-h2">Planting</h2>
+                        <p id="restangle-p">Lorem Ipsum has been the industry</p>
+                    </div>
+                </div>
+                <div class="card" id="card-5">
+                    <div id="card-header">
+                        <img class="card-img" src="./images/5.png" id="gard5"  alt="item-5">
+                    </div>
+                    <div id="card-body">
+                        <h2 id="restangle-h2">Garden care</h2>
+                        <p id="restangle-p">Lorem Ipsum has been the industry</p>
+                    </div>
+                </div>
+                <div class="card" id="card-6">
+                    <div id="card-header">
+                        <img class="card-img" src="./images/6.png" id="gard6"  alt="item-6">
+                    </div>
+                    <div id="card-body">
+                        <h2 id="restangle-h2">Planting</h2>
+                        <p id="restangle-p">Lorem Ipsum has been the industry</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="prices">
+            <a name="price"></a>
+            <div class="prices-header">
+            <h2>Prices</h2>
+            </div>
+            <div class="prices-body">
+                <div class="price">
+                    <div class="prices-call">
+                        <h2 class="prices-text">Our best <span>gardeners</span> are ready to help you</h2>
+                    </div>
+                    <div class="btn__and__leafs">
+                    <button class="btn-contact">Contact us</button>
+                    <img class="image__leafs" src="./images/leafs_2.svg" width="152" height="175" alt="leafs_2">
+                    </div>
+                </div>
+                <div class="price-card">
+                    <div class="price-items">
+                        <div class="price-item" id="item-1" onclick="price('item-1')" style="cursor: pointer;">
+                            <h2>Basics</h2>
+                            <img id="btn-img1" src="./images/accordion_btn.svg" width="16" height="16" alt="price_btn">
+                        </div>
+                        <div class="price-item" id="item-2" onclick="price('item-2')" style="cursor: pointer;">
+                            <h2>Standard</h2>
+                            <img id="btn-img2" src="./images/accordion_btn.svg" width="16" height="16" alt="price_btn">
+                        </div>
+                        <div class="price-item" id="item-3" onclick="price('item-3')" style="cursor: pointer;">
+                            <h2>Pro care</h2>
+                            <img id="btn-img3" src="./images/accordion_btn.svg" width="16" height="16" alt="price_btn">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contacts">
+            <a name="contacts"></a>
+            <div class="contacts-header">
+                <img class="woman" src="./images/contact_woman.png" width="400" height="497" alt="woman">
+                <h2 class="contact-us">Contact us</h2>
+                <div class="contacts-card" id="contacts-card1" style="display: block;">
+                    <div class="flex-container">
+                    <h2 style="margin: 0; margin-top: 5px;" id="s-g">City</h2>
+                    <img style="margin-top: 8px;" src="./images/accordion_btn.svg" width="16" height="16" alt="btn">
+                    </div>
+                    <div class="card-citys" >
+                    <div><h3 onclick="select('s1')" id="s1">Canandaigua, NY</h3></div>
+                    <div><h3 onclick="select('s2')" id="s2">New York City</h3></div>
+                    <div><h3 onclick="select('s3')" id="s3">Yonkers, NY</h3></div>
+                    <div><h3 onclick="select('s4')" id="s4">Sherrill, NY</h3></div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </main>
+    <footer>
+        <div class="footer-rl">
+            <div class="footer-data">
+                <div style="display: flex; justify-content: center;">
+                <p class="at">©</p>
+                <p class="time">2022</p>
+                <a href="https://github.com/Xplous" style="text-decoration: none;"><p class="git">github</p></a>
+                </div>
+                <div class="rolling" style="display: flex; justify-content: center;">
+                    <a href="https://rs.school" style="text-decoration: none;"><h2>Rolling Scopes School</h2></a>
+                </div>
+                <div class="flex-container footer-img" style="display: flex; justify-content: center;">
+                    <img src="./images/inst 1.svg" height="32" width="32" alt="inst">
+                    <img src="./images/fb 1.svg" height="32" width="32" alt="fb">
+                    <img src="./images/tw 1.svg" height="32" width="32" alt="tw">
+                    <img src="./images/pinterest 1.svg" height="32" width="32" alt="pinterest">
+                </div>
+        </div>
+    </footer>
+    <script src="./index.js"></script>
+    <script src="./gard.js"></script>
+</body>
+
+</html>

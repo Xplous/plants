@@ -1,0 +1,1025 @@
+body {
+    margin: 0px;
+    padding: 0px;
+  }
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-ul  > li {
+    padding-left: 42px;
+    list-style-type: none;
+}
+#nav-a {
+    text-decoration: none;
+    color: #010201;
+}
+#header-font {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+}
+.header-plants {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+}
+.header {
+    background-color: #EDF2EC;
+    padding: 42px 109px 42px 111px
+}
+.burger {
+    display: none;
+}
+.welcome {
+    padding: 62px 109px 62px 109px;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    font-family: 'Inter';
+    font-style: normal;
+    background-color: #EDF2EC;
+}
+.welcome-text h2 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+    color: #717171;
+}
+.welcome-text span{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+    color: #499A18
+}
+.welcome-text p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #636060;
+    line-height: 35px;
+    padding-right: 5px;
+    padding-bottom: 20px;
+    
+}
+.welcome-section {
+    padding-left: 224px;
+}
+.button-1 {
+    box-sizing: border-box;
+    width: 158px;
+    height: 44px;
+    border: 2px solid #E06733;
+    border-radius: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    margin-top: 10px;
+}
+.button-1:hover{
+    color: #FFFFFF;
+    background: #E06733;
+    border: 2px solid #E06733;
+    border-radius: 10px;
+}
+.leafs {
+    width: 448.8px;
+    height: 407.36px
+}
+.about {
+    padding: 93px 109px 94px 109px;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: nowrap;
+    font-family: 'Inter';
+    font-style: normal;
+}
+.about-section {
+    padding-right: 153px;
+}
+.about-text h2 {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499A18;
+    padding-right: 142px;
+}
+.about-text span {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #E06733;
+}
+.about-text p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #636060;
+}
+.service{
+    background-color: #EDF2EC;
+}
+.service-nav {
+    padding: 40px 324px 90px 109px;
+    flex-direction: row;
+}
+.service-text {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499A18;
+}
+.service-text {
+    width: 306px;
+    height: 94px;
+    padding-right: 142px;
+    margin-top: 20px;
+    margin-bottom: 42px;
+}
+.service-buttons {
+    display: flex;
+    flex-direction: row;
+}
+.button-2 {
+    box-sizing: border-box;
+    width: 161px;
+    height: 50px;
+    border: 1px solid #E06733;
+    border-radius: 5px;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #E06733;
+}
+.button-2:hover {
+    background: #E06733;
+    border: 1px solid #E06733;
+    color: #FFFFFF;
+}
+.blurs { filter: blur(2px); }
+.fill_button {
+    background: #E06733;
+    border: 1px solid #E06733;
+    color: #FFFFFF;
+}
+
+.button-2:not(:last-child){
+    margin-right: 38px;
+}
+.service-items {
+    padding: 0px 109px 64px 109px;
+}
+.card {
+    width: 330px;
+    height: 450px;
+    border-radius: 20px;
+    margin-bottom: 55px; 
+}
+#card-header {
+    width: 500px;
+    height: 350px;
+    object-fit: cover;
+}
+#card-body {
+    border: 1px solid #E3E1D5;
+    border-radius: 0px 0px 20px 20px;
+}
+.card-img {
+    width: 329px;
+    height: 350px;
+}
+#restangle-h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #E06733;
+    text-align: center;
+}
+#restangle-p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #717171;
+    text-align: center;
+}
+.prices {
+    padding: 40px 109px 135px 109px;
+}
+
+.prices-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.prices-call {
+    padding: 10px;
+    font-weight: 700;
+    line-height: 35px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.prices-text {
+    width: 452px;
+    height: 103px;
+    text-align: right;
+}
+.prices-header h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000000;
+    margin: 0;
+}
+.price {
+    order: 2;
+    font-family: 'Inter';
+    font-style: normal;
+    float: right;
+    padding: 0;
+}
+.price-card {
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+.price-card {
+    order: 1;
+}
+.btn-contact {
+    box-sizing: border-box;
+    width: 162px;
+    height: 50px;
+    border: 1px solid #E06733;
+    border-radius: 5px;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: #E06733;
+}
+.btn-contact:hover {
+    background: #E06733;
+    border: 1px solid #E06733;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.btn__and__leafs {
+    padding-top: 38px;
+    float: right;
+    display: flex;
+    flex-direction: column;
+}
+.price-card {
+    box-sizing: border-box;
+    width: 332px;
+    border: 1px solid #E3E1D5;
+    border-radius: 20px;
+}
+.price-items {
+    width: 250px;
+    height: 214;
+    padding: 0px 40px 0px 40px;
+}
+.price-item {
+    width: 250px;
+    height: 50px;
+    background: #EDF2EC;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+.price-item:first-child {
+    margin-top: 34px;
+}
+.price-item:last-child {
+    margin-bottom: 34px;
+}
+.price-item h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;
+    margin-left: 40px;
+}
+.price-item img {
+    margin-right: 40px;
+}
+.item1 {
+    background-color: #D6E7D2;
+    height: 154px;
+    align-items: baseline;
+    flex-basis: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.item1 h2 {
+    margin-bottom: 0px;
+}
+.item2 {
+    background-color: #D6E7D2;
+    height: 154px;
+    align-items: baseline;
+    flex-basis: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.item2 h2 {
+    margin-bottom: 0px;
+}
+.item3 {
+    background-color: #D6E7D2;
+    height: 154px;
+    align-items: baseline;
+    flex-basis: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.item3 h2 {
+    margin-bottom: 0px;
+}
+.pricetags {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #E06733;
+}
+.order {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #717171;
+    margin: auto
+}
+.image__leafs {
+    
+    padding-top: 39px;
+}
+.prices-call span{
+    color: #499A18;
+}
+.contacts {
+    background: #EDF2EC;
+    height: 550px;
+}
+.contact-us {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499A18;
+    margin: 0px;
+    padding-top: 60px;
+    padding-left: 113px;
+    padding-right: 64px;
+    flex-shrink: 0;
+    
+}
+.contacts-header{
+    display: flex;
+    
+}
+.woman {
+    padding-top: 53px;
+    padding-left: 109px;
+}
+.contacts-card {
+    height: 50px;
+    width: 395px;
+    float: right;
+    margin: 148px 109px 0px 0px;
+    background: #D6E7D2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 35px 0px 20px;
+}
+.contacts-card h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    color: #717171;
+}
+.contacts-card h3 {
+    display: none;
+}
+.card-citys {
+    padding-bottom: 31px;
+}
+.contacts-card:hover{
+    flex-direction: column;
+    width: 450px;
+    height: 284px;
+    align-items: baseline;
+}
+.contacts-card:hover h3 {
+    display: block;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    color: #499A18;
+    margin: 0;
+}
+.contacts-card:hover h3:hover {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    color: #717171;
+}
+.footer-rl {
+    padding: 40px 109px 40px 109px;
+}
+.footer-data {
+    display: flex;
+    flex-direction: row;
+}
+.footer-data p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+    color: #000000;
+}
+.at{
+    padding-right: 20px;
+}
+.time {
+    padding-right: 20px;
+}
+.git {
+    padding-right: 13px;
+}
+.footer-data h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+    color: #000000;
+}
+.footer-rlschool {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+    color: #000000;
+}
+.rolling {
+    padding: 0px 317px 0px 324px;
+}
+.footer-img img:not(:last-child){
+    padding-right: 20px;
+}
+.houseplant {
+    width: 464px;
+    height: 479px;
+}
+
+@media screen and (max-width: 768px) {
+    .nav-ul  > li {
+        padding-left: 46px;
+    }
+    .header {
+        height: 117px;
+        padding: 0px 50px 0px 50px
+    }
+    .welcome {
+        padding:0;
+        flex-direction: row-reverse;
+        padding: 10px 50px 70px 50px;
+    }
+    .welcome-text h2{
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .welcome-text span {
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .welcome-text p {
+        padding: 5px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .button-1 {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+    }
+    .welcome-section {
+        padding:0;
+        margin-left: 0;
+        margin-right: 42px;
+    }
+    .leafs {
+        width: 280px;
+        height: 254px;
+    }
+    .about {
+        display: block;
+        padding: 40px 50px 0px 40px;
+        height: 783px;
+    }
+    .houseplant {
+        height: 258px;
+        width: 250px;
+        margin: 40px 0px 0px 219px;
+    }
+    .about button{
+        display: none;
+    }
+    .about-section {
+        padding: 0
+    }
+    .about-text {
+        padding: 0;
+    }
+    .about-tag {
+        padding: 2px 90px 10px 90px;
+    }
+    .about-text h2 {
+        margin: 0;
+        padding: 0;
+        padding-left: 5px;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 46px;
+        text-align: center;
+    }
+    .about-text span {
+        margin: 0;
+        padding: 0;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 46px;
+        text-align: center;
+    }
+    .about-text p {
+        padding: 10px;
+        padding-top: 20px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .houseplant {
+        width: 250px;
+        height: 258px;
+    }
+    #card-header{
+        width: 281px;
+        height: 350px;
+    }
+    .card {
+        width: 281px;
+        height: 450px;
+        margin-bottom: 38px;
+    }
+    .card-img {
+        width: 280px;
+        height: 350px;
+    }
+    .service-nav {
+        padding: 0;
+        padding: 0px 0px 0px 50px;
+    }
+    .service-text {
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 46px;
+    }
+    .service-items {
+        padding: 40px 50px 38px 50px;
+    }
+    .prices {
+        padding: 0px 50px 60px 50px
+    }
+    .prices-header h2{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 42px;
+        text-align: center;
+        padding: 5px;
+        padding-left: 15px;
+        margin-top: 15px;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    .price-card {
+        margin-top: 30px;
+        margin-bottom: 100px;
+    }
+    .prices-body {
+        display: flex;
+    }
+    .prices-call {
+        padding: 10px;
+        font-weight: 700;
+        line-height: 35px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .prices-text {
+        width: auto;
+        height: auto;
+    }
+    .btn__and__leafs {
+        padding: 0;
+    }
+    .contacts-header {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .contacts {
+        display: block;
+        height: auto;
+        padding: 40px 159px 0px 159px
+    }
+    .woman {
+        width: 200px;
+        height: 248.49px;
+        padding: 0;
+        margin: 0;
+        padding-left: 21px;
+    }
+    .contact-us {
+        text-align: center;
+        padding:0;
+    }
+    .contacts-card {
+        margin: 0;
+        margin: 100px 0px 250px 0px;
+
+    }
+    .woman:nth-child(1){
+        order:3;
+    }
+    .contacts-us:nth-child(2){
+        order:1;
+    }
+    .contacts-card:nth-child(3){
+        order:2;
+    }
+    .footer-data {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    .footer-data p {
+        margin: 0;
+    }
+    .footer-rl {
+        padding: 20px 109px 10px 109px;
+    }
+    .footer-data h2 {
+        margin: 0;
+
+    }
+    .rolling{
+        padding: 0;
+        margin: 0;
+        
+    }
+    .rolling h2 {
+        margin: 0
+    }
+    
+}
+@media screen and (max-width: 380px) {
+    .header{
+        padding:0;
+        padding-left: 24px;
+        padding-right: 25px;
+        background-color: "#red";
+    }
+    .burger {
+        padding-bottom: 20px;
+        display: block;
+    }
+    .navs {
+        display: none;
+    }
+    .header-plants {
+        padding-bottom: 18px;
+    }
+    .logo_plant {
+        padding-bottom: 23px;
+    }
+    .leafs {
+        display: none;
+    }
+    .welcome {
+        padding: 0;
+        padding-left: 20px;
+    }
+    .welcome-text h2{
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 35px;
+        margin: 0;
+        padding: 0;
+        padding-left: 5px;
+        padding-top: 5px;
+    }
+    .welcome-text span{
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .welcome-text p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 25px;
+        padding-right: 0;
+    }
+    .button-1 {
+        box-sizing: border-box;
+        width: 100px;
+        height: 34.14px;
+        border: 2px solid #E06733;
+        border-radius: 10px;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 20px;
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+    .about {
+        padding: 0;
+        padding: 0px 25px 28px 25px;
+        height: auto;
+    }
+    .about h2 {
+        padding-top: 54px;
+        padding-left: 0px;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 33px;
+    }
+    .about span {
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 33px;
+    }
+    .about p {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        padding: 0;
+        margin-top: 12px;
+        margin-bottom: 0px;
+    }
+    .about-tag {
+        padding: 0;
+    }
+    .houseplant {
+        width: 150px;
+        height: 150px;
+        margin: 0px;
+        margin-left: 90px;
+    }
+    .service-nav {
+        padding-left: 25px;
+        
+    }
+    .service-text  {
+        margin:0;
+        padding-top: 30px;
+        padding-right: 100px;
+        padding-bottom: 38px;
+        display: flex;
+        flex-wrap: wrap;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 33px;
+        width: auto;
+        height: auto;
+    }
+    .button-2{
+        box-sizing: border-box;
+        width: 121px;
+        height: 35px;
+        border: 1px solid #E06733;
+        border-radius: 5px;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+    .button-2:not(:last-child){
+        margin-right: 10px;
+    }
+    .service-buttons{
+        flex-wrap: wrap;
+    }
+    .service-items {
+        padding: 30px 50px 0px 50px
+    }
+    #card-body p{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #card-body h2 {
+        margin: 0px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 20px;
+        margin-top: 8px;
+        margin-bottom: 0px;
+    }
+    .card {
+        margin-bottom: 33px;
+    }
+    .prices-header {
+        justify-content: center;
+    }
+    .prices-header h2 {
+        margin: 0;
+        padding: 0;
+        padding-top: 23px;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .price-card {
+        width: 224px;
+        height: 235px;
+        display: flex;
+        margin-bottom: 0;
+        margin-top: 36px;
+    }
+    .price-items{
+        width: 180px;
+        padding: 0px 22px 0px 22px;
+    }
+    .price-item:first-child {
+        margin-top: 29px;
+    }
+    .price-item{
+        margin-bottom: 14px;
+    }
+    .price-item {
+        width: 180px;
+        
+    }
+    .price-item h2 {
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 20px;
+        margin-left: 30px;
+    }
+    .image__leafs {
+        display: none;
+    }
+    .prices-body{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .prices-text {
+        text-align: center;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 35px;
+        margin: 0;
+        padding-top: 10px;
+    }
+    .btn__and__leafs {
+        float: none;
+        justify-content: center;
+    }
+    .btn-contact {
+        width: 121px;
+        height: 35px;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 20px;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .contacts {
+        width: 384px;
+        height: 445px;
+        padding: 0;
+    }
+    .contact-us {
+        padding-top: 5px;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 33px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        padding-right: 7px
+    }
+    .contacts-card {
+        width: 245px;
+        height: 50px;
+        margin: 0;
+        margin: 21px 10px 100px 0px
+    }
+    .woman {
+        width: 100px;
+        height: 124.25px;
+        padding: 0;
+    }
+    .contacts-header {
+        width: 384px;
+        height: 445px;
+        justify-content: space-between;
+    }
+    .footer-rl{
+        width: 380px;
+        height: 146px;
+        padding: 0;
+    }
+    .visual {
+        position: absolute;
+        width:347px;
+        height:160px;  
+        
+        display: flex;
+        z-index:99999999; 
+    }
+    .visual ul {
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+        padding: 0;
+        padding-top: 80px;
+    }
+    .visual li {
+        padding: 0;
+        padding-left: 10px;
+        
+    }
+    .visual a {
+        background: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(8px)
+    }
+}
